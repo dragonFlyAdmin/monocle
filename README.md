@@ -2,7 +2,85 @@
 <img src="http://happydemon.xyz/repos/monocle.png" alt="Monocle" />
 </p>
 
-# Monocle
-Translation manager for Laravel 5.4+
 
-* <div>Icon made by <a href="http://www.flaticon.com/authors/webalys-freebies" title="Webalys Freebies">Webalys Freebies</a> </div>
+# Monocle
+
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-travis]][link-travis]
+[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
+[![Quality Score][ico-code-quality]][link-code-quality]
+[![Total Downloads][ico-downloads]][link-downloads]
+
+This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
+PSRs you support to avoid any confusion with users and contributors.
+
+## Structure
+
+If any of the following are applicable to your project, then the directory structure should follow industry best practises by being named the following.
+
+```
+bin/        
+config/
+src/
+tests/
+vendor/
+```
+
+
+## Install
+
+Via Composer
+
+``` bash
+$ composer require DragonFly/Monocle
+```
+
+## Usage
+
+``` php
+$skeleton = new DragonFly\Monocle();
+echo $skeleton->echoPhrase('Hello, League!');
+```
+
+## Change log
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Testing
+
+``` bash
+$ composer test
+```
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
+
+## Security
+
+If you discover any security related issues, please email maxim@happydemon.xyz instead of using the issue tracker.
+
+## Credits
+
+- [Maxim Kerstens][link-author]
+- [All Contributors][link-contributors]
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[ico-version]: https://img.shields.io/packagist/v/DragonFly/Monocle.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/DragonFly/Monocle/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/DragonFly/Monocle.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/DragonFly/Monocle.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/DragonFly/Monocle.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/DragonFly/Monocle
+[link-travis]: https://travis-ci.org/DragonFly/Monocle
+[link-scrutinizer]: https://scrutinizer-ci.com/g/DragonFly/Monocle/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/DragonFly/Monocle
+[link-downloads]: https://packagist.org/packages/DragonFly/Monocle
+[link-author]: https://github.com/happyDemon
+[link-contributors]: ../../contributors
